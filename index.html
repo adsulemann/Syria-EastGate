@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Cards-Intro</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light header fill pr-5">
+            
+                <img class="rounded-circle" src="sun.png" alt="" style="width:8%">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon "></span>
+                </button>
+              
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                  <ul class="navbar-nav  ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">About  
+                            </a>
+                    </li>
+
+                    <!-- drop down nav -->
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-white " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu " aria-labelledby="navbarDropdown" id="dropdown">
+                        <a class="dropdown-item text-white" href="#">Action</a>
+                        <a class="dropdown-item text-white" href="#">Another </a>
+                        <a class="dropdown-item text-white" href="#">Something </a>
+                      </div>    
+                </li>
+       
+
+<!-- the contact form --> 
+<span class=" text-white " data-toggle="modal" data-target="#myModal"><img src="iconfinder_Email_483486.svg" alt="" style="width:50px"></span>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+<div class="modal-dialog">
+
+         <!-- Modal content-->
+         <div class="modal-content">
+             <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</  button>
+                <h4 class="modal-title"></h4>
+             </div>
+
+            <div class="modal-body">
+              <form role="form" method="post" id="reused_form">
+                 <p>
+                  Send your message in the form below and we will get back to you as early as possible.
+                 </p>
+
+                 <div class="form-group">
+                     <label for="name">
+                    Name:</label>
+                     <input type="text" class="form-control"
+                   id="name" name="name"   required maxlength="50">
+                 </div>
+
+                 <div class="form-group">
+                     <label for="email">
+                     Email:</label>
+                     <input type="email" class="form-control"
+                  id="email" name="email" required maxlength="50">
+                 </div>
+
+                 <div class="form-group">
+                     <label for="name">
+                     Message:</label>
+                     <textarea class="form-control" type="textarea" name="message"
+                   id="message" placeholder="Your Message Here"
+                   maxlength="6000" rows="7"></textarea>
+                 </div>
+
+                 <button type="submit" class="btn btn-lg btn-success btn-block" id="btnContactUs">Send →</button>
+             </form>
+
+             <div id="success_message" style="width:100%; height:100%; display:none; ">
+                 <h3>Sent your message successfully!</h3>
+             </div>
+             <div id="error_message"
+             style="width:100%; height:100%; display:none; ">
+                 <h3>Error</h3>
+               Sorry there was an error sending your form.
+             </div>
+         </div>
+     </div>
+     </div>
+     </div>
+     <!-- end contact form -->
+</ul>
+</div>
+</nav>
+
+<!-- end of the header and nav -->
+
+    <div class="video">
+        <video src="Videos/SYRIA the pulse of life- سورية نبض الحياة.mp4" controls style="width: 100%;height:80%;" autoplay/>
+    </div>
+    <br>
+
+<!-- social media -->
+
+<div class="menu-button"><i class="fas fa-share-alt"></i></i>
+	<a href="#"><i class="fab fa-facebook-f"></i></i></a>
+	<a href="#"><i class="fab fa-google-plus-g"></i></a>
+	<a href="#"><i class="fab fa-codepen"></i></a>
+</div>
+
+<!-- end social media --> 
+    <!--  the cards -->
+
+<div class="card-deck">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 card  first-card text-white" id="first-card">
+                <div class="card-body ">
+                    <h5 class="card-title text-dark"
+                        style="font-size: 35px;text-align: center;font-family: 'Reem Kufi', sans-serif;"> Rich Culture &
+                        Colours</h5>
+    
+                    <br>
+                    <img src="dabkhe.jpg" alt="" class="img-fluid">
+                    <br>
+                    <br>
+                    <p class="card-text text-dark">Dabke (Arabic: دبكة‎ also spelled Dabka, Dubki, Dabkeh, plural
+                        Dabkaat)[1] is a native Levantine folk dance performed by Lebanese, Syrians, Palestinians.[2] Dabke
+                        combines circle dance and line dancing and is widely performed at weddings and
+                        other joyous occasions. The line forms from right to left and leader of the dabke heads the line,
+                        alternating between facing the audience and the other dancers. In English, it can be translated as
+                        dabka, dabki, dabkeh.</p>
+                    <img src="dabke2.jpg" class="img-fluid" style="width:350px">
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-info "><a
+                            href="http://www.cometosyria.com/en/pages/Folklore+Dance+syria/22/1" class="btn btn-info">More
+                            About Syrian's Folklore ?</a></button>
+                    <button type="button" class="btn btn-info "><a
+                            href="https://youtu.be/C7K3ir2covk?list=PLh2rNIdra0hPakexzZi2yeNUafK0ISv8r"
+                            class="btn btn-info">Watch Video</a></button>
+                </div>
+            </div>
+    
+    
+    
+            <div class="col-sm-4 card second-card " id="second-card">
+                <div class="card-body ">
+                    <h5 class="card-title text-dark"
+                        style="font-size: 35px;text-align: center;font-family: 'Reem Kufi', sans-serif;"> Traditional's Food
+                    </h5>
+                    <br>
+                    <img src="hosting-dinner.jpg" alt="" class="img-fluid">
+                    <br>
+                    <br>
+                    <br>
+                    <p class="card-text">
+                        Syrian cuisine includes dishes like kibbeh, kebab halabi, waraq `inab, hummus, tabbouleh, fattoush,
+                        labneh, shawarma, mujaddara, shanklish, bastirma, sujuk and baklava. Syrians often serve selections
+                        of appetizers, known as "meze", before the main course, and za`atar, minced beef, and cheese
+                        manaqish as hors d'oeuvres. Arabic flat bread is always eaten together with meze. spice mixture
+                        called "baharat mushakalah" is endemic to Syrian cuisine.
+                    </p>
+                    <img src="food.jpg" class="img-fluid" style="width:350px">
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-info"><a href="https://cookforsyria.com/recipe/"
+                            class="btn btn-info">Would like to try Syrian's Food in the Kitchen?
+                        </a></button>
+                </div>
+            </div>
+    
+            <div class="card  col-sm-4 first-card text-white" id="first-card">
+                <div class="card-body  ">
+                    <h5 class="card-title text-dark" id="achievments"
+                        style="font-size: 35px;text-align: center;font-family: 'Reem Kufi', sans-serif;"> Achievments</h5>
+    
+                    <br>
+                    <img src="first-hospital.jpg" alt="" class="img-fluid" style="width: 400px;height:300px">
+    
+                    <br>
+                    <br>
+                    <br>
+                    <p class="card-text text-dark">Oneday, in the Middle Ages or Dark Ages in Europe
+                        Which coincided with the golden age of Islamic civilization
+                        At the time, hospitals were so highly organized, arranged, and cleaned that it was almost like
+                        science fiction, especially when they learned that Islamic civilization preceded Europe in the
+                        establishment and establishment of hospitals by nine centuries. The first Islamic hospital was
+                        established during the reign of the Umayyad caliph Alwaleed bin Abdul Malik in Damascus. The
+                        hospital was specialized in leprosy and many hospitals were established in the Islamic world, some
+                        of which were great. In the world .. While the first European hospital was established in Paris
+                        after more than nine centuries !!</p>
+                    <button type="button" class="btn btn-info "><a
+                            href="https://www.nationalgeographic.com/archaeology-and-history/magazine/2016/11-12/muslim-medicine-scientific-discovery-islam/"
+                            class="btn btn-info">More Achiements </a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--  the slide show -->
+    <div class="slide-show">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+    
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="1" class="active"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#demo" data-slide-to="3"></li>
+                    <li data-target="#demo" data-slide-to="4"></li>
+                    <li data-target="#demo" data-slide-to="5"></li>
+                    <li data-target="#demo" data-slide-to="6"></li>
+                    <li data-target="#demo" data-slide-to="7"></li>
+                    <li data-target="#demo" data-slide-to="8"></li>
+                    <li data-target="#demo" data-slide-to="9"></li>
+                    <li data-target="#demo" data-slide-to="10"></li>
+                    <li data-target="#demo" data-slide-to="11"></li>
+                    <li data-target="#demo" data-slide-to="12"></li>
+                    <li data-target="#demo" data-slide-to="13"></li>
+    
+                </ul>
+                <br><br>
+                <!-- The slideshow -->
+                <div class="carousel-inner" style="width:100%">
+                    <div class="carousel-item active" style="height: 600px;">
+                        <img src="1280px-وادي_قنديل_(wadi_kandel_).jpg">
+                    </div>
+    
+                    <div class="carousel-item" style="height: 600px">
+                        <img src="allepo castle.jpg" alt="Allepo">
+                    </div>
+                    <div class="carousel-item" style="height: 600px">
+                        <img src="Ancient-Palmyra-Treasures-from-the-Hands-of-ISIS.jpg">
+                    </div>
+                    <div class="carousel-item" style="height: 600px">
+                        <img src="09_Horus.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="noria-of-hama-water-wheel-.jpg" style="height: 600px">
+                    </div>
+    
+                    <div class="carousel-item" style="height: 600px">
+                        <img src="Umayyad Mosque in Damascus - Syria (night)2__1_tonemapped.jpg" alt="New York">
+                    </div>
+                    <div class="carousel-item" style="height: 600px">
+                        <img src="تدمر-541-1024x680.jpg">
+                    </div>
+    
+                    <div class="carousel-item" style="height: 600px">
+                        <img src="006.jpg">
+                    </div>
+                    <div class="carousel-item" style="height: 600px">
+                        <img src="4703RO1wSc-img-20180314-wa0026.jpg">
+                    </div>
+                    <div class="carousel-item" style="height: 600px">
+                        <img src="allepo.jpg">
+                    </div>
+                    <div class="carousel-item" style="height: 600px">
+                        <img src="bosra_theater_ab3.jpg">
+                    </div>
+                </div>
+    
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+            <p class="p-slide"></p>
+        </div>
+    
+
+
+
+        <div class="card first-card text-white" id="activities">
+                <div class="card-body ">
+                    <h5 class="card-title text-dark"
+                        style="font-size: 35px;text-align: center;font-family: 'Reem Kufi', sans-serif;"> Activities & Places
+                    </h5>
+        
+                    <br>
+                    <img src="souq alhamidia.jpg" alt="" class="img-fluid" style="width: 100%">
+                    <br>
+                    <br>
+                    <p class="card-text text-dark">
+        
+                        Syria is characterized by the beauty of nature and the splendor of the place meant to enjoy its nature
+                        charming and mild and moderate atmosphere where the mountainous areas and mountains, green forests and
+                        natural springs cold, high resorts, hotels, villas, restaurants and cafes and its diverse natural parks
+                        and diverse historic cities and the mild climate and mild in summer the most important components of the
+                        product of recreation If added to the diverse markets, festivals and summer events mixed with the nature
+                        of various Syrians
+                        And their customs and traditions attract and offer Syria to its guests entertainment and fun atmosphere
+                        in festivals, concerts and family events and enjoy the magic of the night of the special to hear the
+                        music and dances folklore and displays of melody in many places, especially in Damascus and Aleppo, old
+                        and modern. The most important recreation areas known in Syria are Zabadani, Bludan, Baqin, Dumar,
+                        Hamaya, Madaya, Sarghaya, Safita, Mushta El Helou, Marmarita, Salma, Qadmus, Salafah, Dreikish, Kasab,
+                        Ras Al-Basit, Ras Ibn Hani, Musayaf, Abu Qabis and Wadi. Laayoune, Mashqieta, the Seven Lakes, the
+                        Barada Valley resorts, the Kafron, Mount Arbaeen, Al Mashtaya, Umm Al-Dhiyarز
+                    </p>
+                    <br>
+                    <button type="button" class="btn btn-info "><a
+                            href="https://www.google.com/destination/map/topsights?q=activities+in+syria&sa=X&rlz=1C1CHBF_enDE842DE842&output=search&dest_mid=/m/06vbd&dest_mid=/m/06vbd&dest_mid=/m/06vbd#dest_mid=/m/06vbd&tcfs=EhEKCC9tLzA2dmJkEgVTeXJpYQ"
+                            class="btn btn-info">Things to do in Syria?</a></button>
+                </div>
+                
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer font-small">
+        <h3 style="text-align: center;font-family: 'Reem Kufi', sans-serif;">&copy; All Rights are reserved to AD/Hamburg</h3>
+       
+    </footer>
+    <!-- --------------- -->
+
+   
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
