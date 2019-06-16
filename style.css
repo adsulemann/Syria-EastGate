@@ -1,6 +1,8 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+scroll-behavior: smooth;
+
 }
 
 /* Make the image fully responsive */
@@ -41,9 +43,6 @@ nav span {
   text-align: center;
 }
 
-.btn:hover {
-  background-color: #3e8e41;
-}
 
 .social-links {
   text-align: center;
